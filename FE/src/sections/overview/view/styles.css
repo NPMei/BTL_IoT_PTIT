@@ -1,0 +1,12 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .fan-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .fan-icon.spinning {
+    animation: spin 2s linear infinite;
+  }

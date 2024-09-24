@@ -1,0 +1,23 @@
+/* Nhiệt độ: chuyển từ xanh dương sang đỏ */
+.temperature {
+  background: linear-gradient(to right, #0000ff, #ff0000); /* Xanh dương sang đỏ */
+  color: white; /* Màu chữ */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Độ ẩm: dải màu xanh dương */
+.humidity {
+  background: linear-gradient(to right, #0000ff, #00ffff); /* Xanh dương sang xanh nhạt */
+  color: white; /* Màu chữ */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Ánh sáng: dải màu vàng */
+.light {
+  background: linear-gradient(to right, #ffff00, #ffcc00); /* Vàng sang cam */
+  color: black; /* Màu chữ */
+  padding: 20px;
+  border-radius: 5px;
+}
